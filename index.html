@@ -5,11 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>摩托车首页 | YAMAHA摩托车</title>
-  <style>
-    * {
-      font-size:200px;
-    }
-  </style>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="index.js">
 </head>
 <body runat=server>
   <div class="tip hidden-xs" id="check_tip">
@@ -110,6 +107,86 @@
         <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="images/icon/icon-03" class="img-icon"></a></li>
       </ul>
     </section>
+    <!-- PC端用导航条顶部结束 -->
+    <!-- 两端通用-导航条下部开始 -->
+    <mav class="navbar navbar-default" id="nva" style="max-width: 100%; z-index: 99;">
+      <div class="container-fluid">
+        <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div id="nav_logo">
+          <a href="http://www.yamaha-motor.com.cn/">
+            <img src="images/rew identity.png">
+          </a>
+        </div>
+        <div class="clooapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <div class="center">
+            <ul class="nav navbar-nav" id="nav-center">
+              <li>
+                <a href="/mc/">首页<span class="glyphicon glyphicon-menu-right visible-xs"></span></a>
+              </li>
+              <li class="dropdown product">
+                <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">产品<span class="glyphicon glyphicon-menu-down icon-center up-down hidden-sx"></span><sapn class="glyphicon glyphicon-plus plus-minus visible-xs"></sapn>
+                </a>
+                <ul class="dropdown-menu ul-column-center">
+                  <li class="dropdown">
+                    <a href="https://www.yamaha.com.cn/mc/products" target="_blacnk" class="dropdown-toggle stop" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">BIG BIKE 进口车<span class="glyphicon glyphicon-plus visible-xs puls-minus"></span></a>
+                    <ul class="dropdown-menu product-item">
+                      <li>
+                        <ul class="produch-item-flex">
+                          <li class="motor">
+                            <a href="/mc/products/mt-07" target="_blank">
+                              <img src="/mc/public/uploads/mt-07/mt-07 002.png">
+                              <div class="motor-msg">
+                                <span>
+                                  <h5 style="text-align: center;">MT-07</h5>
+                                </span>
+                              </div>
+                            </a>
+                          </li>
+                          <li class="motor">
+                            <a href="/mc/products/r3/" target="_blank">
+                              <img src="/mc/public/uploads/r3/r3 002.png">
+                              <div class="motor-msg">
+                                <span>
+                                  <h5 style="text-align: center;">YZF R3</h5>
+                                </span>
+                              </div>
+                            </a>
+                          </li>
+                          <li class="motor">
+                            <a href="/mc/products/xmax/" target="_blank">
+                              <img src="/mc/public/uploads/xmax/xmax 002.png">
+                              <div class="motor-msg">
+                                <span>
+                                  <h5 style="text-align: center;">XMAX 300</h5>
+                                </span>
+                              </div>
+                            </a>
+                          </li>
+                          <li class="motor">
+                            <a href="/mc/products/nmax-tcs" target="_blank">
+                              <img src="/mc/public/uploads/nmax-tcs 002.jpg">
+                              <div class="motor-msg">
+                                <span>
+                                  <h5 style="text-align: center;">NMAX 155 TCS版</h5>
+                                </span>
+                              </div>
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </mav>
   </div>
 </body>
 </html>
